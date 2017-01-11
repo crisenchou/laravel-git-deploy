@@ -1,0 +1,27 @@
+{
+  "name": "crisen/laravel-git-deploy",
+  "description": "auto deploy git for laravel project",
+  "keywords": [
+    "laravel",
+    "git deploy",
+    "laravel git 自动化部署"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "^5.0,<5.4",
+    "illuminate/http": "^5.0,<5.4",
+    "illuminate/console": "^5.0,<5.4",
+    "symfony/class-loader": "^2.3|^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crisen\\LaravelGitDeploy\\": "src"
+    }
+  },
+  "license": "MIT",
+  "minimum-stability": "stable"
+}
